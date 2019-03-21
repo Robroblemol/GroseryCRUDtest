@@ -1,0 +1,28 @@
+[16-Mar-2019 17:25:52 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/codeigniter/application/controllers/Main.php on line 23
+[16-Mar-2019 17:25:52 UTC] PHP Stack trace:
+[16-Mar-2019 17:25:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeigniter/index.php:0
+[16-Mar-2019 17:25:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/codeigniter/index.php:315
+[16-Mar-2019 17:28:52 UTC] PHP Fatal error:  Class 'actor_CRUD' not found in /home/ubuntu/workspace/codeigniter/application/controllers/Main.php on line 24
+[16-Mar-2019 17:28:52 UTC] PHP Stack trace:
+[16-Mar-2019 17:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeigniter/index.php:0
+[16-Mar-2019 17:28:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/codeigniter/index.php:315
+[16-Mar-2019 17:28:52 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[16-Mar-2019 17:28:52 UTC] PHP   4. Main->actor() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[16-Mar-2019 18:01:54 UTC] PHP Fatal error:  Call to a member function render() on a non-object in /home/ubuntu/workspace/codeigniter/application/controllers/Main.php on line 26
+[16-Mar-2019 18:01:54 UTC] PHP Stack trace:
+[16-Mar-2019 18:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeigniter/index.php:0
+[16-Mar-2019 18:01:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/codeigniter/index.php:315
+[16-Mar-2019 18:01:54 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[16-Mar-2019 18:01:54 UTC] PHP   4. Main->actor() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[18-Mar-2019 14:43:22 UTC] PHP Fatal error:  Call to undefined function set_table() in /home/ubuntu/workspace/codeigniter/application/controllers/Main.php on line 41
+[18-Mar-2019 14:43:22 UTC] PHP Stack trace:
+[18-Mar-2019 14:43:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeigniter/index.php:0
+[18-Mar-2019 14:43:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/codeigniter/index.php:315
+[18-Mar-2019 14:43:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[18-Mar-2019 14:43:22 UTC] PHP   4. Main->category() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[18-Mar-2019 15:48:46 UTC] PHP Fatal error:  Call to undefined method Grocery_CRUD::colums() in /home/ubuntu/workspace/codeigniter/application/controllers/Main.php on line 45
+[18-Mar-2019 15:48:46 UTC] PHP Stack trace:
+[18-Mar-2019 15:48:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/codeigniter/index.php:0
+[18-Mar-2019 15:48:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/codeigniter/index.php:315
+[18-Mar-2019 15:48:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
+[18-Mar-2019 15:48:46 UTC] PHP   4. Main->category() /home/ubuntu/workspace/codeigniter/system/core/CodeIgniter.php:532
