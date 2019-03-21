@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	</div>
 
-		<h1>Welcome to the world of Codeigniter</h1>
+		<h1>Probando Codeigniter</h1>
 </div>
 
 </body>

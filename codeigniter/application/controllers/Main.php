@@ -22,7 +22,7 @@ public function index()
             <a href='<?php echo site_url('Main/tarea')?>'>Tarea</a> 
         </div>
        <?php
-        echo "<h1>Welcome to the world of Codeigniter</h1>";//Just an example to ensure that we get into the function
+        echo "<h1>Probando Codeigniter</h1>";//Just an example to ensure that we get into the function
         die();
     }
 
@@ -71,6 +71,9 @@ public function tarea(){
     $crud->set_relation('id_subject', 'subjects', '{name}');
     $crud->set_relation('id_student', 'students', '{name}');
     $crud->display_as('id_student','Estudiante');
+    $crud->unset_delete();//no borrrado
+    $crud->add_fields('score','id_subject','id_student','exam_name');
+    $crud->required_fields('exam_name','id_student','id_subject','score');
     
     $output = $crud->render(); // en al variable de salida agregamos 
     $this->_view_output($output);
