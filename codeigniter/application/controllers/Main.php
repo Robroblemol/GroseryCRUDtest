@@ -18,7 +18,8 @@ public function index()
      ?>   <div>
             <a href='<?php echo site_url('Main/')?>'>Inicio</a> | 
             <a href='<?php echo site_url('Main/actor')?>'>Actores</a> 
-            <a href='<?php echo site_url('Main/category')?>'>Cartegorias</a> 
+            <a href='<?php echo site_url('Main/category')?>'>Cartegorias</a>
+            <a href='<?php echo site_url('Main/tarea')?>'>Tarea</a> 
         </div>
        <?php
         echo "<h1>Welcome to the world of Codeigniter</h1>";//Just an example to ensure that we get into the function
@@ -78,7 +79,7 @@ public function tarea(){
 }
     function _view_output($output = null){
         
-        $this->load->view('ViewActors.php',$output); 
+        $this->load->view('ViewFrom.php',$output); 
    
     }
 } 

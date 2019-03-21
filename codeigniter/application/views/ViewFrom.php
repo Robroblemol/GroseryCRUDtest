@@ -36,7 +36,7 @@ a:hover
         <a href='<?php echo site_url('Main/')?>'>Inicio</a> 
         <a href='<?php echo site_url('Main/actor')?>'>Actores</a>
         <a href='<?php echo site_url('Main/category')?>'>Cartegorias</a> 
-         <a href='<?php echo site_url('Main/tarea')?>'>tarea</a> 
+        <a href='<?php echo site_url('Main/tarea')?>'>Tarea</a> 
     </div>
 <!-- End of header-->
     <div style='height:20px;'></div>  
