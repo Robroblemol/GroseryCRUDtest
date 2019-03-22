@@ -60,11 +60,13 @@ public function actor(){
          $this->load->view('ViewActors.php',$output); 
     }
 
-} 
+}
+
 ```
 Si corremos el proyecto con el botón  en c9 y abrimos la direcion de nuestro proyecto https://practicacodeigniter-nombredeusuario.c9users.io/codeigniter/index.php/main/ debemos ver lo que se muestra en la funcion index del archivo Main.php. Si a la anterior dirección le agregamos el nombre de la función debemos poder ver los atributos del objeto stdClass Object
 
  <h2>Creación vista para visualización de valores de tabla actor.</h2>
+ 
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -142,6 +144,7 @@ Como la función category usa la misma función  _view_output() de la función a
 Con la función $crud -> set_subject('Category'); le indicamos mostramos el nombre del los registros es decir, que ya no nos aparecerá el el String por defecto Record sino que tendremos el nombre de nuestro registro Category.
 
 Con la función $crud -> columns(); recibe un string con la columna que queremo traer, y con la función  $crud->display_as('nombreCampo','nombreMostrado'); le asignamos el nombre que queremos que tenga ese campo en nuestra vista.
+
 ```
         $crud -> columns('fullname','last_update');
         $crud->display_as('fullname','Nombre completo');
